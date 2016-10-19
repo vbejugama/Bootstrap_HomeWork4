@@ -1,0 +1,36 @@
+---
+title: "Bootstrap_Exercise"
+author: "Vivek Bejugama"
+date: "October 19, 2016"
+output: html_document
+---
+
+
+
+Knitting External Bootstrap R Code to Illustrate the Central Limit 
+```{r}
+knitr::read_chunk("C://Users//vivek//Documents//R//R_Script//BootStrap.R")
+```
+
+## Test 1 : Normal Distribution of Size 100  
+#####  The results below are in tune with central limit theorem for normal distributed population size 100. The Population mean is equal to the mean of the 1000 randomly selected samples from the population and the sample means are normally distributed. 
+  
+```{r Nsample100}
+```
+  
+
+## Test 2 : Normal Distribution of Size 500
+#####  The results below are in tune with central limit theorem for normal distributed population size 500. The Population mean is equal to the mean of the 1000 randomly selected samples from the population and the sample means are normally distributed.
+```{r Nsample500}
+```
+
+## Test 3 : Exponential Distribution of Size 100
+#####  The results below are in tune with central limit theorem for exponential distributed population size 100. The Population mean is equal to the mean of the 1000 randomly selected samples from the population and the sample means are normally distributed even though the population is not.
+```{r Esample100}
+```
+
+## Test 4 : Exponential Distribution of Size 500
+#####  The results below are in tune with central limit theorem for exponential distributed population size 100. The Population mean is equal to the mean of the 1000 randomly selected samples from the population and the sample means are normally distributed even though the population is not.
+```{r Esample500}
+```
+
